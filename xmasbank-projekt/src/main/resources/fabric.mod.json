@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "xmasbank",
+  "version": "${version}",
+  "name": "Świąteczny Bank",
+  "description": "Ekonomia: konto, przelewy, zarabianie, kary AFK. Świąteczny styl.",
+  "authors": ["Serwer Świąteczny"],
+  "license": "MIT",
+  "icon": "assets/xmasbank/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.xmasbank.XmasBank"],
+    "client": ["pl.xmasbank.client.XmasBankClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
